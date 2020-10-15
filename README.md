@@ -17,3 +17,13 @@ Delivering Positivity with Python
 
 <p>You can read the blog post corresponding to this repo on my blog, Python Marketer: "<a href="https://pythonmarketer.com/2020/10/11/generating-positive-thoughts-with-google-vision-ocr-and-markov-chains/" target="_blank" rel="noreferrer noopener">Generating Positive Thoughts with Google Vision OCR and Markov Chains</a>"
 <!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><strong>Installing pandas, markovify and Jupyter Notebook Libraries</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<code>python -m pip install pandas</code>
+<code>python -m pip install markovify</code>
+<code>python -m pip install notebook</code>
+<!-- /wp:paragraph -->
