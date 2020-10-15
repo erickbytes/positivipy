@@ -5,7 +5,7 @@ Delivering Positivity with Python
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Recently I have begun to think about using this dataset of quote images to generate new positive and inspirational quotes. This post details a simple implementation and alternatives I considered to accomplish this goal.</p>
+<p>I wanted to use this dataset of quote images from great thinkers, artists and creators to generate new positive and inspirational quotes. This post details an implementation and alternatives I considered to accomplish this goal.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -13,9 +13,9 @@ Delivering Positivity with Python
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
-<ol><li>Export all Facebook post images from my page</li><li>Convert images to quote text with <strong>Optical character recognition</strong> (OCR)</li><li>Data cleaning (via pandas and manual correction)</li><li>Train on past quotes and generate new quotes with Markov Chains</li></ol>
+<ol><li>Export all Facebook post images from my page</li><li>Convert images to quote text with <strong>Optical character recognition</strong> (OCR)</li><li>Data cleaning (via pandas and manual correction)</li><li>Train on past quotes and generate new quotes with a Markov chain</li></ol>
 
-<p>You can read the blog post corresponding to this repo on my blog, Python Marketer: "<a href="https://pythonmarketer.com/2020/10/11/generating-positive-thoughts-with-google-vision-ocr-and-markov-chains/" target="_blank" rel="noreferrer noopener">Generating Positive Thoughts with Google Vision OCR and Markov Chains</a>"
+<p>You can read the companion blog post to this repo on my blog, Python Marketer: "<a href="https://pythonmarketer.com/2020/10/11/generating-positive-thoughts-with-google-vision-ocr-and-markov-chains/" target="_blank" rel="noreferrer noopener">Generating Positive Thoughts with Google Vision OCR and Markov Chains</a>"
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
@@ -23,7 +23,9 @@ Delivering Positivity with Python
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<code>python -m pip install pandas</code>
-<code>python -m pip install markovify</code>
-<code>python -m pip install notebook</code>
+<code>python -m pip install pandas</code><br>
+<code>python -m pip install markovify</code><br>
+<code>python -m pip install notebook</code><br>
 <!-- /wp:paragraph -->
+
+# See the Markov chain in the wild: positivethoughts.pythonanywhere.com
