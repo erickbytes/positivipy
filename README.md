@@ -5,7 +5,7 @@ Delivering Positivity with Python
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>I wanted to use this dataset of quote images from great thinkers, artists and creators to generate new positive and inspirational quotes. This post details an implementation and alternatives I considered to accomplish this goal.</p>
+<p>I wanted to use this dataset of quote images from great thinkers, artists and creators to generate new positive and inspirational quotes. This project details an implementation and alternatives I considered to accomplish this goal.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
